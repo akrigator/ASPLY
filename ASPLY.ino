@@ -1,16 +1,16 @@
 //ATTINY PINS
-#define INPUT_PIN     2
-#define LIGHT_PIN     0
-#define FAN_1_PIN     1
-#define FAN_2_PIN     2
-#define FAN_3_PIN     3
+#define INPUT_PIN     2//A2//2
+#define LIGHT_PIN     0//2//0
+#define FAN_1_PIN     1//3//1
+#define FAN_2_PIN     2//4//2
+#define FAN_3_PIN     3//5//3
 //INPUT MODE
 #define LIGHT_MODE    0
 #define FAN_MODE      1
 
 #define INPUT_BUTTONS   4
 #define ANALOG_SMOOTH   5
-#define DEBONCE_TIMEOUT 50
+#define DEBONCE_TIMEOUT 20
 
 struct Control {
   char mode;
@@ -31,10 +31,9 @@ Control controls[INPUT_BUTTONS] = {
 };
 
 void setup () {
-  pinMode(LIGHT_PIN,OUTPUT);
-  pinMode(FAN_1_PIN,OUTPUT);
-  pinMode(FAN_2_PIN,OUTPUT);
-  pinMode(FAN_3_PIN,OUTPUT);
+  for (int i = 0; i < INPUT_BUTTONS; i++) {
+    pinMode(controls[i].chanelPin,OUTPUT);
+  }
 } 
 
 void loop () {
