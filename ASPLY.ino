@@ -54,6 +54,7 @@ void loop () {
         for (int j = 0; j <INPUT_BUTTONS; j++)  // turn off all fans
           if (controls[j].mode == FAN_MODE)
             digitalWrite(controls[j].chanelPin, controls[j].chanelState = 0);
+      delay(100);
       digitalWrite(controls[i].chanelPin, controls[i].chanelState = !currentState); // toogle current chanel
     }
         
