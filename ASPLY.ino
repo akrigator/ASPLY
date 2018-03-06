@@ -80,7 +80,6 @@ struct Channel {
     }
   };
   void update() {if (state > ON) {indicator.blinking(TIMER_BLINK); tick();}};
-  
 };
 
 struct {
