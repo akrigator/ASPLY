@@ -2925,15 +2925,15 @@ design rules under a new name.</description>
 <element name="D6" library="diode" package="DO41-10" value="1N4007" x="95.54" y="34.62"/>
 <element name="D7" library="diode" package="DO41-10" value="1N4007" x="109" y="45.7"/>
 <element name="D8" library="diode" package="DO41-10" value="1N4007" x="109" y="34.62"/>
-<element name="C1" library="capacitor-wima" package="C22.5B8" value="0.33uF 275VAC" x="80" y="65.7" smashed="yes" rot="R270">
+<element name="C1" library="capacitor-wima" package="C22.5B8" value="1uF 275VAC" x="80" y="65.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.572" y="77.003" size="1.778" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="76.96" y="72.78" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C2" library="capacitor-wima" package="C22.5B8" value="0.33uF 275VAC" x="91" y="65.7" smashed="yes" rot="R270">
+<element name="C2" library="capacitor-wima" package="C22.5B8" value="1uF 275VAC" x="91" y="65.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.572" y="77.003" size="1.778" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="87.96" y="72.78" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R2" library="resistor" package="0617/22" value="220" x="83.97" y="40.112" rot="R180"/>
+<element name="R2" library="resistor" package="0617/22" value="100" x="83.97" y="40.112" rot="R180"/>
 <element name="C3" library="rcl" package="E5-6" value="47uF 50V" x="108.587" y="28.112" smashed="yes">
 <attribute name="NAME" x="111.635" y="29.89" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="104.635" y="23.191" size="1.27" layer="27" ratio="10"/>
@@ -3026,19 +3026,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.4696" y="52.732" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="61.7476" y="46.1464" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R12" library="rcl" package="0204/7" value="220" x="86.215" y="21.549" smashed="yes" rot="R90">
+<element name="R12" library="rcl" package="0204/7" value="1k" x="86.215" y="21.549" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.4196" y="14.009" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="86.6976" y="19.9234" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R13" library="rcl" package="0204/7" value="220" x="68.729" y="21.549" smashed="yes" rot="R90">
+<element name="R13" library="rcl" package="0204/7" value="1k" x="68.729" y="21.549" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.9336" y="14.009" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="69.2116" y="19.9234" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R14" library="rcl" package="0204/7" value="220" x="49.084" y="21.549" smashed="yes" rot="R90">
+<element name="R14" library="rcl" package="0204/7" value="1k" x="49.084" y="21.549" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.2886" y="14.009" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="49.5666" y="19.9234" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R15" library="rcl" package="0204/7" value="220" x="29.058" y="21.549" smashed="yes" rot="R90">
+<element name="R15" library="rcl" package="0204/7" value="1k" x="29.058" y="21.549" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.2626" y="14.009" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="29.5406" y="19.9234" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
